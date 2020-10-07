@@ -1,0 +1,118 @@
+body, a{
+    /*CHAMADA PARA FONT 'RUBIK' FONTS GOOGLE*/
+    font-family: 'Rubik', sans-serif;
+    color: #373f50;
+    text-decoration: none !important;
+}
+/*CAROUSEL SLIDE PRINCIPAL*/
+div.carousel-slide{
+    margin-top: 60px;
+}
+.h6{
+    font-size: 14px;
+}
+/*BADGE DISCOUNTED PRODUCTS*/
+.card .badge{
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    box-shadow: 0 0.5rem 1.125rem -0.275rem #007AFC;
+}
+/*INDICATORS REVIEWS*/
+.carousel-indicators{
+    bottom: -40px;
+}
+.carousel-indicators li{
+    border-radius: 12px;
+}
+.bi.bi-star-fill{
+    color: #FEA568;
+}
+.bi.bi-star{
+    color: #aeb4be;
+}
+.comments-text{
+    font-size: 14px;
+}
+.comments-person p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.comments-person .comments-date{
+    font-size: 12px;
+}
+/*FOOTER*/
+.title-footer{
+    font-size: 17px;
+    font-weight: 500;
+}
+.text-list-footer{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.social-icons-footer{
+    font-size: 18px;
+}
+.social-icons-footer:hover{
+    color: #596267 !important;
+}
+.copyright-footer{
+    background-color: rgb(29, 32, 36);
+}
+/*ICONE ENVELOPE INPUT SUBSCRIBE*/
+.has-envelope .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-envelope .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/*ABOUT*/
+/*HEADER TITLER*/
+.header-title-page{
+    background: #F6F9FC;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+.breadcrumb-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+.jumbotron-title{
+    font-size: 28px;
+}
+.about-img-first{
+    background-image: url(img/bg-about-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-img-second{
+    background-image: url(img/bg-about-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-img-third{
+    background-image: url(img/bg-about-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-img-four{
+    background-image: url(img/bg-about-04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*CONTACT*/
+.contact-icons{
+    font-size: 28px;
+}

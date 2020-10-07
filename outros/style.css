@@ -1,0 +1,44 @@
+body, a{
+    /*CHAMADA PARA FONT 'RUBIK' FONTS GOOGLE*/
+    font-family: 'Rubik', sans-serif;
+    color: #373f50;
+    text-decoration: none !important;
+}
+a:hover, a:active, a:focus, button:focus {
+    outline: none;
+    border: 0;
+}
+/* Tooltip */
+.tooltip-inner {
+    background-color: #373f50;
+    font-size: 12px;
+}
+.bi.bi-heart{
+    color: #373f50;
+}
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #373f50;
+  }
+div.login-text p{
+    font-size: 11px;
+    position: relative;
+    top: 15px;
+}
+a.login-link{
+    text-decoration: none;
+    font-weight: 400;
+    color: #373f50cc;
+    transition: ease-in 0.2s;
+}
+a.login-link:hover{
+    color: #373f50;
+}
+div.login-text h6{
+    font-size: 14px;
+}
+.bi.bi-person{
+    font-size: 25px;
+}
+.bi.bi-bucket{
+    font-size: 20px;
+}
